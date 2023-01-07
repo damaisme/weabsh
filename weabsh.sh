@@ -1,3 +1,4 @@
+#!/bin/bash
 # Bash/Shell Script http server
 
 function handleRequest() {
