@@ -10,7 +10,7 @@ function exampleGet(){
   response "Hello World!"
 }
 
-function exampleGetWithHtmlResponse{
+function exampleGetWithHtmlResponse(){
   response $(cat index.html)
 }
 
