@@ -25,7 +25,7 @@ Explanation:
 - `#!/bin/bash` :  to define what kind of interpreter to run.
 - `source weabsh.sh` : to import the weabsh.sh (lib file)
 - `function exampleGet(){...}` : to define a function that will be executed when there is an http request on the verb and path defined.
-- `respose "..."` : simply to give a http response
+- `response "..."` : simply to give a http response
 - `response $(cat index.html)` : give a http response with html content
 - `get {path} {function to be execute}` : to define the http verb and path then what function to run
 - `listen {port}` : to run the tcp socket on the defined port
