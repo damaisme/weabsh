@@ -30,7 +30,7 @@ Explanation:
 - `get {path} {function to be execute}` : to define the http verb and path then what function to run
 - `listen {port}` : to run the tcp socket on the defined port
 
-### Running The App
+### Run The App
 You can run the app just like you would run a normal shell script.
 ```
 bash app.sh
